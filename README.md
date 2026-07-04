@@ -4,7 +4,7 @@
 
 `KKE-Lab-Agent.py` is a single-file, dependency-light reference implementation of an enterprise RAG platform. It runs the agent loop on the Agents SDK (`Agent` + `Runner`), uses the SDK's own `SQLiteSession` for per-tenant memory, and keeps a **separate FAISS index per tenant** rebuilt from a SQLite source-of-truth. Tenant identity is resolved from **trusted session/CLI state — never from the model** — so a prompt-injected document cannot cross tenants.
 
----
+------------
 
 ## Table of Contents
 
