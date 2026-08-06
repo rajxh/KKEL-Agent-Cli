@@ -10,6 +10,7 @@ from agents import (
     run_demo_loop, ModelSettings, set_tracing_disabled,
     OpenAIChatCompletionsModel, RawResponsesStreamEvent, RunItemStreamEvent,
 )
+import os
 
 # ---------------------------------------------------------------------------
 # Config
