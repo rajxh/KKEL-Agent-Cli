@@ -28,7 +28,7 @@
 
 ---
 
-## Project Overview
+## Project Overview & Documentation
 
 KKE-Lab-Agent answers natural-language questions **strictly from a tenant's own documents**, with source citations, and **abstains** when retrieval returns nothing relevant. It is built for the realistic enterprise case where one deployment serves many isolated organizations (tenants), each with its own corpus, its own conversation history, and its own language preference — and where **cross-tenant data leakage is unacceptable**.
 
