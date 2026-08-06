@@ -267,9 +267,7 @@ Two persistence systems share **one SQLite file** (`RAG_DB`, default `rag_state.
 - **`/forget`** clears a tenant's `SQLiteSession` without touching its corpus.
 - **Why not `run_demo_loop` by default?** The SDK's stock `run_demo_loop` keeps history only in-process (no `session=` parameter). To get **persistent** memory *plus* multi-tenant switching *plus* streaming, the default REPL calls `Runner.run_streamed` with `session=` directly (same loop shape). `run_demo_loop` is still available via `/demo` for a quick single-tenant, in-memory session.
 - **`PRAGMA journal_mode=WAL`** is set for better concurrent read/write behavior on the state DB.
-
----
-
+- ___
 ## Ingestion & Indexing Strategy
 
 Ingestion is **multi-tenant and incremental**, driven by content hashing so re-running is cheap and idempotent.
