@@ -1,4 +1,4 @@
-# KKE-Lab-Agent — Multi-Tenant Enterprise RAG on the OpenAI Agents SDK
+# KKE-Lab-Agent — Multi-Tenant Enterprise RAG on the OpenAI Agents Native SDK
 
 > A production-shaped, **multi-tenant** Retrieval-Augmented Generation system with **hard tenant isolation**, persistent conversation memory, incremental hash-based ingestion, and token-by-token streaming — built on the real **OpenAI Agents SDK** primitives and served **fully on-prem** by a local **Ollama** runtime.
 
