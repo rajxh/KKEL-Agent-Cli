@@ -11,6 +11,7 @@ from agents import (
     OpenAIChatCompletionsModel, RawResponsesStreamEvent, RunItemStreamEvent,
 )
 import os
+import win32
 
 # ---------------------------------------------------------------------------
 # Config
